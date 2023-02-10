@@ -29,7 +29,7 @@
 
 [[@Gitelman-Source Note]]
 
-[[@History of Cryptography and Cryptanalysis-Source Note
+[[@History of Cryptography and Cryptanalysis-Source Note]]
 
 [[@Kumar From Clay Tablets to Web-Source Note]]
 
