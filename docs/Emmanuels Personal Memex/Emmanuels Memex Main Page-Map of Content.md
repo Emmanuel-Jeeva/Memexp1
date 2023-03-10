@@ -32,7 +32,9 @@ My memex is about people, their ideas and how these ideas contribute to our soci
 [[@The Rise and The Fall of the Fax Machine]]  #new
 
 ## Certain people and their impact 
-[[website/Emmanuels Personal Memex/Index/people and their impact/Turing Test]]    #new
+
+These notes are about either certain individuals from the source notes/lectures that I believe have an imapct on society that was worth looking at on its own to see what either their contributions were or who they were as a person
+[[Turing Test]]   #new 
 
 [[women and their impact]]  #new
 
@@ -41,6 +43,8 @@ My memex is about people, their ideas and how these ideas contribute to our soci
 
 
 ## pre computer
+
+These notes are all highlights from technology that existed before the telegraph as well as the legacy of this technology
 
 [[The Victorian Internet Chapter 1]]  #new
 
