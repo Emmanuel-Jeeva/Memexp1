@@ -1,0 +1,12 @@
+
+Mitchell, Sue H. “The Haunting Influence of Alexander Graham Bell.” _American Annals of the Deaf_ 116, no. 3 (1971): 349–56. http://www.jstor.org/stable/44394260. Accessed March 9 2023
+
+The article above describes how Alexander Graham Bell went on to make more than just the telephone and ended making the photophone as well as trying to work with deaf people. There were some negative aspects to his work such as promoting American sign language over other versions of sign language.
+
+- Alexander Graham Bell is considered one of themost prominent personalities with a substantialinterest in the deaf during the last 100 y — [Updated on 2023-03-09 19:13:19](https://hyp.is/XLfozL7YEe22NF9xw3r45A/www.jstor.org/stable/pdf/44394260.pdf?refreqid=excelsior%3A13e9f1ce298e1f075b925af1efedbbce&ab_segments=0%2Fbasic_search_gsv2%2Fcontrol&origin=&initiator=&acceptTC=1) — Group: #hist1900c-w2023
+
+- At a disadvantage within this frameworkwere those who possessed verbal languagebefore becoming deaf. No attention was paidat the schools for the deaf, except in rare,quasi-experimental situations, to the retentionof the already acquired speech of the advanti-tiously dea — [Updated on 2023-03-09 19:13:53](https://hyp.is/cP2tEr7YEe2DQUMoL5MyPg/www.jstor.org/stable/pdf/44394260.pdf?refreqid=excelsior%3A13e9f1ce298e1f075b925af1efedbbce&ab_segments=0%2Fbasic_search_gsv2%2Fcontrol&origin=&initiator=&acceptTC=1) — Group: #hist1900c-w2023
+	- I highlighted this due to me not really having much knowledge on how those who were deaf were marginlized
+
+- The unusual influence of Alexander GrahamBell upon the lives and circumstances of deafpeople was of singular quality and broadscope. His impact, both direct and indirect,upon the social and economic status of thedeaf population of the United States wasunique and far-reaching and has extended intothe present time. For this reason, his policiesand beliefs most directly applicable to theadult deaf merit review and evaluation. — [Updated on 2023-03-09 19:14:19](https://hyp.is/gHPM4L7YEe2lZVujGdAjDw/www.jstor.org/stable/pdf/44394260.pdf?refreqid=excelsior%3A13e9f1ce298e1f075b925af1efedbbce&ab_segments=0%2Fbasic_search_gsv2%2Fcontrol&origin=&initiator=&acceptTC=1) — Group: #hist1900c-w2023
+	- Similar to [[@The Impact of Alan Turing]] where Alan Turing impact ends up impacting multiple fields.
