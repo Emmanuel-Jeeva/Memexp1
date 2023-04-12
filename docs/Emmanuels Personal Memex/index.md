@@ -35,6 +35,22 @@
 
 [[Mar 8]]
 
+[[Mar 13]]
+
+[[Mar 15]]
+
+[[Mar 20]]
+
+[[Mar 22]]
+
+[[Mar 27]]
+
+[[Section 230 Mar 27 Work]]
+
+[[Mar 29]]
+
+[[April 3]]
+
 [[@As We May Think-Source Note]]
 
 [[@Gitelman-Source Note]]
@@ -68,4 +84,34 @@
 [[Turing Test]]
 
 [[women and their impact]]
+
+[[@The Route of a Text Message, a Love Story]]
+
+[[@The Science of Computing]]
+
+[[@What Happened to Netscape]]
+
+[[@The Birth of the Modem World]]
+
+[[@My Secret Life]]
+
+[[Pam Hardt]]
+
+[[Lawrence Roberts]]
+
+[[BBS]]
+
+[[Internet Explorer]]
+
+[[Wargames]]
+
+[[Overview Memex1]]
+
+[[Overview Memex2]]
+
+[[Overview Memex3]]
+
+
+
+
 

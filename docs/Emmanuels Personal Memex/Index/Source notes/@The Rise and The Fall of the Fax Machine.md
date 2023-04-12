@@ -1,6 +1,6 @@
 
 Coopersmith, Jonathan. 2015. _Faxed: The Rise and Fall of the Fax Machine_. Baltimore, UNITED STATES: Johns Hopkins University Press. [http://ebookcentral.proquest.com/lib/oculcarleton-ebooks/detail.action?docID=3318872](http://ebookcentral.proquest.com/lib/oculcarleton-ebooks/detail.action?docID=3318872). Accessed Feb 25 2023
-#memex2 #preinternet 
+#memex2 #preinternet #fax
 
 The Rise and Fall of The Fax Machine is an important article as it discusses what the world was like before the internet as well as showcases what happens when a certain technology becomes too old and slowly declines in popularity.  The author also showcases how the Fax Machine slowly grew as well as the affordability issues with the fax machine. I believe that this book is important as we can see the similarities between the fax machine and many other types of modern technology hence why I believe the people behind each new technology need to make them more viable for the general public to use so that they will stay relevant.
 

@@ -1,0 +1,3 @@
+#overview #memex2 
+
+I found memex 2 to be when I got to confirm my theme of people on my Memex. This is when I decided that peoples ideas and how these ideas impact our society was important. I looked at figures such as Alexander Graham Bell and Alan Turing. I believe that by focussing on the idividuals who helped shape technology that came before the internet we are able to look at their unique perspective and use it to better our own understanding and knowledge of their technology or ideas. At this point I considered a possible sub theme of impact. The impact that some individuals had on the future of the industry was somewhat clear but would be revealed more in the third Memex.

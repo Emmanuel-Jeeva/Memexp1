@@ -1,4 +1,4 @@
-
+#memex2 #important-person 
 Mitchell, Sue H. “The Haunting Influence of Alexander Graham Bell.” _American Annals of the Deaf_ 116, no. 3 (1971): 349–56. http://www.jstor.org/stable/44394260. Accessed March 9 2023
 
 The article above describes how Alexander Graham Bell went on to make more than just the telephone and ended making the photophone as well as trying to work with deaf people. There were some negative aspects to his work such as promoting American sign language over other versions of sign language.
