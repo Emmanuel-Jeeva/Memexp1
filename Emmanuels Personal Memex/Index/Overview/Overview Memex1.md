@@ -1,0 +1,3 @@
+ #overview 
+
+Within the first part my theme of people and their impact had not fully been developed yet. When I was making it I initially could only bridge these concepts with gardening and how almost all the articles whether it was Kumar talking about libraries or Judy Walkowitz talking about good note taking it seemed that the concepts of gardening from Mike Caufields article seemed to run through each reading. I felt that the first part of the course showed how people wanted to build a version of the "internet" that was way more free and allowed these gardening techniques.
