@@ -1,0 +1,834 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="../Mar%2022/" rel="prev"/>
+<link href="../Mar%2029/" rel="next"/>
+<link href="../../../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.1.8" name="generator"/>
+<title>Mar 27 - obsidian-mkdocs template</title>
+<link href="../../../../assets/stylesheets/main.ded33207.min.css" rel="stylesheet"/>
+<link href="../../../../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="pink" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#the-90s">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="obsidian-mkdocs template" class="md-header__button md-logo" data-md-component="logo" href="../../../.." title="obsidian-mkdocs template">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            obsidian-mkdocs template
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Mar 27
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="pink" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="blue" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="pink" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"></path></svg>
+</label>
+</form>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="obsidian-mkdocs template" class="md-nav__button md-logo" data-md-component="logo" href="../../../.." title="obsidian-mkdocs template">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+    obsidian-mkdocs template
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../..">
+        Obsidian Notes
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Emmanuels Personal Memex
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          Emmanuels Personal Memex
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../">
+        Index
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Emmanuels%20Memex%20Main%20Page-Map%20of%20Content/">
+        Emmanuels Memex Main Page Map of Content
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Memex%202-Emmanuels%20Memex%20Main%20Page-Map%20of%20Content/">
+        Memex 2 Emmanuels Memex Main Page Map of Content
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+          Index
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_2_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_4">
+<span class="md-nav__icon md-icon"></span>
+          Index
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Memex2%20Changes%20and%20notes/">
+        Memex2 Changes and notes
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Memex3%20notes%20and%20changes/">
+        Memex3 notes and changes
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Untitled/">
+        Untitled
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../tags/">
+        Tags
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_4_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_4_5" id="__nav_2_4_5_label" tabindex="0">
+          Cryptogrophy
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_4_5_label" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_2_4_5">
+<span class="md-nav__icon md-icon"></span>
+          Cryptogrophy
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Cryptogrophy/Commercial%20codes/">
+        Commercial codes
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Cryptogrophy/Cryptology%20and%20Cryptography%20%2B%20the%20Internet/">
+        Cryptology and Cryptography + the Internet
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Cryptogrophy/Substitution%20ciphers/">
+        Substitution ciphers
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Cryptogrophy/superencipherment/">
+        Superencipherment
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Cryptogrophy/transposition%20ciphers./">
+        Transposition ciphers.
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_4_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_4_6" id="__nav_2_4_6_label" tabindex="0">
+          FInal Journey
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_4_6_label" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_2_4_6">
+<span class="md-nav__icon md-icon"></span>
+          FInal Journey
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FInal%20Journey/0_Final%20Journey_1/">
+        0 Final Journey 1
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../FInal%20Journey/0_Final%20Journey_2/">
+        0 Final Journey 2
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_4_7" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_4_7" id="__nav_2_4_7_label" tabindex="0">
+          Internet Impact
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_4_7_label" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_2_4_7">
+<span class="md-nav__icon md-icon"></span>
+          Internet Impact
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Internet%20Impact/BBS/">
+        BBS
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Internet%20Impact/Internet%20Explorer/">
+        Internet Explorer
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Internet%20Impact/Section%20230%20Mar%2027%20Work/">
+        Section 230 Mar 27 Work
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Internet%20Impact/Wargames/">
+        Wargames
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_4_8" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_4_8" id="__nav_2_4_8_label" tabindex="0">
+          Overview
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_4_8_label" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_2_4_8">
+<span class="md-nav__icon md-icon"></span>
+          Overview
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Overview/Overview%20Memex1/">
+        Overview Memex1
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Overview/Overview%20Memex2/">
+        Overview Memex2
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Overview/Overview%20Memex3/">
+        Overview Memex3
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_4_9" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_4_9" id="__nav_2_4_9_label" tabindex="0">
+          Source notes
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_4_9_label" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_2_4_9">
+<span class="md-nav__icon md-icon"></span>
+          Source notes
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Source%20notes/%40As%20We%20May%20Think-Source%20Note/">
+        @As We May Think Source Note
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Source%20notes/%40From%20Cabling%20the%20Atlantic%20to%20Wiring%20the%20World/">
+        @From Cabling the Atlantic to Wiring the World
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Source%20notes/%40Gitelman-Source%20Note/">
+        @Gitelman Source Note
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Source%20notes/%40History%20of%20Cryptography%20and%20Cryptanalysis-Source%20Note/">
+        @History of Cryptography and Cryptanalysis Source Note
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Source%20notes/%40Kumar%20From%20Clay%20Tablets%20to%20Web-Source%20Note/">
+        @Kumar From Clay Tablets to Web Source Note
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Source%20notes/%40Media%20Effects-Source%20Note/">
+        @Media Effects Source Note
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Source%20notes/%40My%20Secret%20Life/">
+        @My Secret Life
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Source%20notes/%40Telecommunications%20and%20Colonial%20Rivalry/">
+        @Telecommunications and Colonial Rivalry
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Source%20notes/%40The%20Birth%20of%20the%20Modem%20World/">
+        @The Birth of the Modem World
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Source%20notes/%40The%20Impact%20of%20Alan%20Turing/">
+        @The Impact of Alan Turing
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Source%20notes/%40The%20Peoples%20Network/">
+        @The Peoples Network
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Source%20notes/%40The%20Rise%20and%20The%20Fall%20of%20the%20Fax%20Machine/">
+        @The Rise and The Fall of the Fax Machine
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Source%20notes/%40The%20Route%20of%20a%20Text%20Message%2C%20a%20Love%20Story/">
+        @The Route of a Text Message, a Love Story
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Source%20notes/%40The%20Science%20of%20Computing/">
+        @The Science of Computing
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Source%20notes/%40What%20Happened%20to%20Netscape/">
+        @What Happened to Netscape
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_4_10" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_4_10" id="__nav_2_4_10_label" tabindex="0">
+          Gardening
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_4_10_label" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_2_4_10">
+<span class="md-nav__icon md-icon"></span>
+          Gardening
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../gardening/Caufield/">
+        Caufield
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../gardening/On%20Taking%20Notes%20%20Perspectives%20on%20History/">
+        On Taking Notes  Perspectives on History
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../gardening/taking%20a%20Break/">
+        taking a Break
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2_4_11" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_4_11" id="__nav_2_4_11_label" tabindex="0">
+          Lectures
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_2_4_11_label" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_2_4_11">
+<span class="md-nav__icon md-icon"></span>
+          Lectures
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../April%203/">
+        Dont Be Evil
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Feb%201%20Electric%20history/">
+        Feb 1 Electric history
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Feb%2013/">
+        Feb 13
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Feb%2027/">
+        Feb 27
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Jan%2011/">
+        Jan 11
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Jan%2016/">
+        Jan 16
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Jan%2018/">
+        Jan 18
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Jan%2023-Can%20you%20Keep%20a%20Secret/">
+        Jan 23 Can you Keep a Secret
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Mar%201/">
+        Mar 1
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Mar%2013/">
+        Mar 13
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Mar%2015/">
+        Mar 15
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Mar%2020/">
+        Mar 20
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Mar%2022/">
+        Mar 22
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Mar 27
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Mar 27
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-90s">
+    The 90's
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#on-tap-today">
+    On Tap Today:
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#post-netscape">
+    post Netscape
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#getting-your-own-space">
+    Getting your own space
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sites-were-made-for-niche-topics">
+    sites were made for niche topics
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#geocities">
+    Geocities
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#excavating-geocities">
+    Excavating GeoCities
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#community-leaders-emerge">
+    Community Leaders Emerge
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#section-230">
+    Section 230
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Mar%2029/">
+        90s pt2
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Mar%206/">
+        Mar 6
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Mar%208/">
+        Mar 8
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_4_12" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_4_12" id="__nav_2_4_12_label" tabindex="0">
+          People and their impact
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_4_12_label" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_2_4_12">
+<span class="md-nav__icon md-icon"></span>
+          People and their impact
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../people%20and%20their%20impact/Alexander%20Graham%20Bell/">
+        Alexander Graham Bell
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../people%20and%20their%20impact/Lawrence%20Roberts/">
+        Lawrence Roberts
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../people%20and%20their%20impact/Pam%20Hardt/">
+        Pam Hardt
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../people%20and%20their%20impact/Turing%20Test/">
+        Turing Test
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../people%20and%20their%20impact/women%20and%20their%20impact/">
+        Women and their impact
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_4_13" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_4_13" id="__nav_2_4_13_label" tabindex="0">
+          Pre computer
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_4_13_label" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_2_4_13">
+<span class="md-nav__icon md-icon"></span>
+          Pre computer
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../pre%20computer/The%20Victorian%20Internet%20Chapter%201/">
+        The Victorian Internet Chapter 1
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../pre%20computer/The%20Victorian%20Internet%20Chapter%205/">
+        The Victorian Internet Chapter 5
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../pre%20computer/U.S.%20Postal%20Service/">
+        U.S. Postal Service
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#the-90s">
+    The 90's
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#on-tap-today">
+    On Tap Today:
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#post-netscape">
+    post Netscape
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#getting-your-own-space">
+    Getting your own space
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sites-were-made-for-niche-topics">
+    sites were made for niche topics
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#geocities">
+    Geocities
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#excavating-geocities">
+    Excavating GeoCities
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#community-leaders-emerge">
+    Community Leaders Emerge
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#section-230">
+    Section 230
+  </a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h2 id="the-90s">The 90's<a class="headerlink" href="#the-90s" title="Permanent link">¶</a></h2>
+<h2 id="on-tap-today">On Tap Today:<a class="headerlink" href="#on-tap-today" title="Permanent link">¶</a></h2>
+<ul>
+<li>Browser Wars</li>
+<li>Lists and Search</li>
+<li>Homesteading and Community</li>
+<li>Section 230</li>
+</ul>
+<p><img alt="Pasted image 20230327131349.png" src="../../../images/Pasted%20image%2020230327131349.png"/></p>
+<ul>
+<li>Mosaic Browser</li>
+<li>Funds NCSA</li>
+<li>graphical browser</li>
+<li>iphone moment</li>
+</ul>
+<p><img alt="Pasted image 20230327131559.png" src="../../../images/Pasted%20image%2020230327131559.png"/></p>
+<ul>
+<li>What shows up when you opened up Mosaic ^</li>
+<li>real estate becomes important</li>
+<li>Who writes the directory?</li>
+<li>goes public in 1995 and funds double throuch stock trading</li>
+</ul>
+<p><img alt="Pasted image 20230327132022.png" src="../../../images/Pasted%20image%2020230327132022.png"/></p>
+<p>All browsers kinda look the same...</p>
+<h2 id="post-netscape">post Netscape<a class="headerlink" href="#post-netscape" title="Permanent link">¶</a></h2>
+<p><strong>moz://a</strong></p>
+<ul>
+<li>devolpes firefox</li>
+<li>uses google search</li>
+</ul>
+<p><strong>yahoo</strong></p>
+<ul>
+<li>1994 grad students make lists of websites that are important</li>
+<li>turns it into a company and eventually into yahoo</li>
+</ul>
+<p><img alt="Pasted image 20230327133806.png" src="../../../images/Pasted%20image%2020230327133806.png"/>
+- 1996 yahoo</p>
+<h2 id="getting-your-own-space">Getting your own space<a class="headerlink" href="#getting-your-own-space" title="Permanent link">¶</a></h2>
+<ul>
+<li>people were given the impression that they could make their own websites</li>
+<li>
+<h2 id="sites-were-made-for-niche-topics">sites were made for niche topics<a class="headerlink" href="#sites-were-made-for-niche-topics" title="Permanent link">¶</a></h2>
+</li>
+</ul>
+<h2 id="geocities">Geocities<a class="headerlink" href="#geocities" title="Permanent link">¶</a></h2>
+<p>The Web is a <em>Place</em></p>
+<p><img alt="" src="https://shawngraham.github.io/hist1900/assets/slides/geocities.png"/></p>
+<ul>
+<li>Working in a university meant using geocities to navigate web</li>
+<li>Geocities helped people learn the internet and was important</li>
+<li>helps people to share ideas</li>
+<li>
+<p>yahoo buys geocities and kills geographic part</p>
+<ul>
+<li>Key was the neighbourhood system</li>
+</ul>
+</li>
+<li>
+<p><a href="https://web.archive.org/web/19961220171417/http://www.geocities.com/Area51/">Area 51</a>: fans of star trek, x-files, twilight zone</p>
+</li>
+<li><a href="https://web.archive.org/web/19961221001802/http://www.geocities.com/EnchantedForest/">Enchanted Forest</a>: kids</li>
+<li><a href="https://web.archive.org/web/19961220171426/http://www.geocities.com/Athens/">Athens</a>: politics, education</li>
+<li>yahoo kills geocities eventually within short period of time
+<img alt="Pasted image 20230327135329.png" src="../../../images/Pasted%20image%2020230327135329.png"/></li>
+</ul>
+<h2 id="excavating-geocities">Excavating GeoCities<a class="headerlink" href="#excavating-geocities" title="Permanent link">¶</a></h2>
+<ul>
+<li>the ruins of GeoCities exist as a <em>torrent</em> from Internet Archive</li>
+<li>sites can be pulled from it; because of backwards compatibility, a lot of these sites can still work (for a given value of 'work')</li>
+<li>The work of Ian Milligan</li>
+</ul>
+<p><img alt="" src="https://shawngraham.github.io/hist1900/assets/slides/homesteading-stamp.jpg"/></p>
+<p>homesteading as a metaphor embraces both of those tensions - homesteading creates a community where there was none before <em>if we accept the doctrine of terra nullius</em>; homesteading is digital colonialism, and the eventual outcome of that is the strip mine, the clear cut</p>
+<h2 id="community-leaders-emerge">Community Leaders Emerge<a class="headerlink" href="#community-leaders-emerge" title="Permanent link">¶</a></h2>
+<p>"If that's the only reason you want to be a leader, think again. It's hard work. Many of our leaders spend several hours each day answering questions and helping their neighbors set up their sites"</p>
+<h1 id="section-230">Section 230<a class="headerlink" href="#section-230" title="Permanent link">¶</a></h1>
+<p>What if someone put up something noxious on a website that you were operating the server for?</p>
+<p>"No provider or user of an interactive computer service shall be treated as the publisher or speaker of any information provided by another information content provider." (47 U.S.C. § 230(c)(1)).</p>
+<p>So section 230 applies regardless of how much content moderation gets done, but lots of people treat it as if it does</p>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../../../..", "features": [], "search": "../../../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../../../../assets/javascripts/bundle.51198bba.min.js"></script>
+<script src="../../../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</body>
+</html>
